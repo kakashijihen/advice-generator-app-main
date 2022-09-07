@@ -1,0 +1,32 @@
+@use 'variables';
+@use 'card.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: variables.$manrope;
+    font-size: 16px;
+    background-color: variables.$DarkGrayishBlue;
+    padding: 1.25rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 0.1px);
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+    margin-top: 3rem;
+    color: variables.$LightCyan;
+    a { color: variables.$NeonGreen}
+}
